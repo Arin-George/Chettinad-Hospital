@@ -1,0 +1,250 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    height: 2.5%;
+    background-color: rgb(48, 192, 175);
+    padding: 10px;
+    display: flex;
+}
+
+.navbar .chettinad{
+    display: flex;
+}
+
+.navbar img{
+    width: 5rem;
+}
+
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.chettinad h1{
+    color: rgb(73, 72, 72);
+    height: 2.5%;
+    background-color: rgb(48, 192, 175);
+    padding: 10px;
+}
+
+.login-page h2{
+    text-align: center;
+}
+
+.patientLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 50px 0;
+    color: rgb(48, 94, 192);
+    background-color: rgb(229, 227, 227);
+    max-width: 20%;
+    min-width: 370px;
+    margin-left: 40%;
+} 
+
+a.loginButton{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(48, 192, 175);
+    vertical-align: middle;
+    transition: all 400ms ease-in-out;
+    width: 8rem;
+    margin-left: 35%;
+}
+
+a.loginButton:hover{
+    background-color: rgb(37, 147, 135);
+    border-bottom: 3px solid rgb(29, 114, 104);
+}
+
+.logo{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+.about p{
+    font-size: 25px;
+}
+
+.information{
+    display: flex;
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(229, 227, 227);
+    padding-top: 70px;
+    justify-content: space-evenly;
+}
+
+.information img{
+    width: 350px;
+    height: 70%;
+    border: 2px solid;
+}
+
+.pfp1{
+    /* margin: auto; */
+    /* display: block; */
+    width: 15rem;
+    border: 1px solid;
+}
+
+.patient-profile{
+    padding-top: 90px;
+    padding-left: 90px;
+    display: flex;
+}
+
+.patientProfilePic{
+    padding-right: 100px;
+    border-right: 1px solid black;
+}
+
+.patientProfileInfo{
+    padding-left: 100px;
+}
+
+.patientProfileInfo p{
+    font-size: 25px;
+}
+
+.patientProfileInfo h1{
+    color: rgb(48, 94, 192);
+    
+}
+
+
+
+::selection{
+    color: white;
+    background-color: rgb(48, 192, 175);
+}
+
+.search-container{
+    background: #fff;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.search-container:hover > .search-input{
+    width: 400px;
+}
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    outline:none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+    padding-left: 10px;
+}
+
+.search-container .search-btn .fas{
+    color: #5cbdbb;
+}
+
+.btn-info {
+    font-weight: 600;
+    color: white;
+    background-color: rgb(48, 192, 175);
+    --bs-btn-hover-bg: rgb(43, 169, 154);
+    --bs-btn-hover-color: white;
+}
+
+.patientloginbtn {
+    margin-left: 32%;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.addPatientForm, .addMedRec, .editPatientForm, .editDoctorForm, .registerForm{
+    background-color: rgb(229, 227, 227);
+    padding: 30px;
+    box-shadow: 5px 5px 5px lightblue;
+    font-weight: 700;
+}
+
+
+/*Custom Buttons */
+
+.CustomButton button{
+    width: 300px;
+    height: 70%;
+    border-radius: 20%;
+    border-color: rgb(48, 192, 175);
+    color: white;
+    background-color: rgb(48, 192, 175);
+    transition: all 0.2s;
+}
+
+.CustomButton button:hover{
+    background-color: rgb(52, 207, 189);
+    border-color: rgb(43, 169, 154);
+    box-shadow: 3px 3px 5px rgb(77, 77, 77);
+    transform: translateY(-0.24em) translateX(-0.24em);
+}
+
+.fa-user-doctor, .fa-user, .fa-user-tie, .fa-sliders, .fa-user-plus,.fa-clock-rotate-left{
+    font-size: 100px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top:10%;
+    background-color: rgb(54, 209, 191);
+    padding: 80px 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .about{
+    text-align: left;
+    color: rgb(73, 72, 72);
+    margin-right: 100px;
+    width: 50%;
+}
+
+.footer .about h2{
+    font-size: 30px;
+}
+
+.footer .about p{
+    font-size: medium;
+}
+
+.footer .app{
+    text-align: left;
+    color: rgb(73, 72, 72);
+    width: 50%;
+    padding-left: 20%;
+}
+
+.footer .app h2{
+    font-size: 30px;
+}
+
+.footer .app p{
+    font-size: medium;
+}
+
